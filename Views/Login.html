@@ -20,7 +20,7 @@
    <h2>Ingreso al sistema</h2>
    <p>Por favor ingrese su contraseña y password</p>
    </div>
-    <form id="Login">
+    <form class="form" id="Login">
 
         <div class="form-group">
 
@@ -48,6 +48,45 @@
     </div>
 <p class="botto-text"> Designed by Sunil Rajput</p>
 </div></div></div>
+
+    <script>
+        const myForm = document.getElementById('Login');
+
+        Login.addEventListener('submit', function(e) {
+          e.preventDefault();
+
+          const formData = new FormData(this);
+          const searchParams = new URLSearchParams();
+          const email = document.getElementById('inputEmail').value;
+          const pass = document.getElementById('inputPassword').value;
+          console.log(email);
+          console.log(pass);
+
+          fetch  ('https://localhost:44325/api/GetWS_USUARIOLogin/'+ email+","+pass, {
+              method: 'POST',
+              body: FormData
+
+          }).then(function(response) {
+                return response.text();
+          }).then(function(text){
+              console.log(text.length);
+
+              if(text.length > 2){
+                   window.location.href ="http://127.0.0.1:5501/Views/Catalogo.html";
+              } else {
+                    
+                    alert('Usuario o Contraseña Incorrectos');
+                    
+                   
+              }
+
+          }).catch(function(error){
+              console.error(error);
+          })
+
+        })
+      
+    </script>
 
 
 </body>
