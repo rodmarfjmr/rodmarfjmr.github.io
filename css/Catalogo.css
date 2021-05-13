@@ -37,4 +37,66 @@ section {
     opacity: 0.5;
     z-index: 1;
   }
-  
+
+  .cuerpo-pagina{
+    background-color: #1B1F2C;
+  }
+
+  .carousel-contenedor{
+    width:100%;
+    position:relative;
+    height: 780px;
+  }
+
+  .botones{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.7);
+    text-align: center;
+    font-weight: bold;
+    position:absolute;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255,255,255,.6);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+
+  .botones:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+  }
+
+  .izquierda{
+    left: 2%;
+    top: calc(50% - 70px);
+  }
+
+  .derecha{
+    right: 2%;
+    top: calc(50% - 70px);
+  }
+
+  .navigation{
+    position: relative;
+    background-color: transparent;
+    border: 1px solid #1B1F2C;
+    padding: 10px;
+    top: 0;
+    color:white;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    -webkit-transition: 0.3s linear; 
+    -moz-transition: 0.3s linear; 
+    -ms-transition: 0.3s linear; 
+    -o-transition: 0.3s linear; 
+    transition: 0.3s linear;
+  }
+  nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus{color: #e99c2e;}
+  .item{
+    color:white;
+  }
