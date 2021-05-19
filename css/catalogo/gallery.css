@@ -1,0 +1,205 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background:#1b1f2c;
+}
+
+
+.gallery-cell1 {
+  width: 66%;
+  height: 500px;
+  background-repeat: no-repeat;
+    background-size: contain;
+  /*margin-right: 10px;*/
+  background-image: url("http://seriefilosenfurecidos.com/wp-content/uploads/2018/09/HIMYM.png");
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell1:before {
+  display: block;
+  text-align: center;
+  /* content: counter(gallery-cell); */
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.gallery-cell2 {
+    width: 66%;
+    height: 500px;
+    background-repeat: no-repeat;
+      background-size: contain;
+    /*margin-right: 10px;*/
+    background-image: url("http://seriefilosenfurecidos.com/wp-content/uploads/2018/09/HIMYM.png");
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell2:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .gallery-cell3 {
+    width: 66%;
+    height: 500px;
+    background-repeat: no-repeat;
+      background-size: contain;
+    /*margin-right: 10px;*/
+    background-image: url("http://seriefilosenfurecidos.com/wp-content/uploads/2018/09/HIMYM.png");
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell3:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .gallery-cell4 {
+    width: 66%;
+    height: 500px;
+    background-repeat: no-repeat;
+      background-size: contain;
+    /*margin-right: 10px;*/
+    background-image: url("http://seriefilosenfurecidos.com/wp-content/uploads/2018/09/HIMYM.png");
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell4:before {
+    display: block;
+    text-align: center;
+     /* content: counter(gallery-cell); */ 
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  .gallery-cell5 {
+    width: 66%;
+    height: 500px;
+    background-repeat: no-repeat;
+      background-size: contain;
+    /*margin-right: 10px;*/
+    background-image: url("http://seriefilosenfurecidos.com/wp-content/uploads/2018/09/HIMYM.png");
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell5:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  .gallery-cell6 {
+    width: 66%;
+    height: 500px;
+    background-repeat: no-repeat;
+      background-size: contain;
+    /*margin-right: 10px;*/
+    background-image: url("https://i.ytimg.com/vi/rMD9xCT0Za4/maxresdefault.jpg");
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell6:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  .gallery-cell7 {
+    width: 66%;
+    height: 500px;
+    background-repeat: no-repeat;
+      background-size: contain;
+    /*margin-right: 10px;*/
+    background-image: url("https://i.ytimg.com/vi/rMD9xCT0Za4/maxresdefault.jpg");
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell7:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  .gallery-cell8 {
+    width: 66%;
+    height: 500px;
+    background-repeat: no-repeat;
+      background-size: contain;
+    /*margin-right: 10px;*/
+    background-image: url("https://i.ytimg.com/vi/rMD9xCT0Za4/maxresdefault.jpg");
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell8:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  .gallery-cell9 {
+    width: 66%;
+    height: 500px;
+    background-repeat: no-repeat;
+      background-size: contain;
+    /*margin-right: 10px;*/
+    background-image: url("https://i.ytimg.com/vi/rMD9xCT0Za4/maxresdefault.jpg");
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell9:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  .gallery-cell10 {
+    width: 66%;
+    height: 500px;
+    background-repeat: no-repeat;
+      background-size: contain;
+    /*margin-right: 10px;*/
+    background-image: url("https://i.ytimg.com/vi/rMD9xCT0Za4/maxresdefault.jpg");
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell10:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
